@@ -1,0 +1,23 @@
+{
+  "name": "rekoncile-project",
+  "private": true,
+  "description": "A project to learn how to write a frontend framework",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:examples": "npx http-server . -o ./examples",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "frontend",
+    "framework",
+    "javascript"
+  ],
+  "author": "George Bockari <bitwhys@cr8iv.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
